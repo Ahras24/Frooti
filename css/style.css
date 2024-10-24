@@ -1,0 +1,82 @@
+.nav-items{
+    font-family: "Roboto Serif", serif;
+}
+.main-h1{
+    position: absolute;
+    z-index: 50;
+    font-family: EksellDisplayWeb-Small;
+    font-weight: 700;
+    font-size: 5em;
+    color: white;
+  }
+
+  .main-h1{
+    position: absolute;
+    z-index: 50;
+    font-family: EksellDisplayWeb-Small;
+    font-weight: 700;
+    font-size: 5em;
+    color: white;
+  }
+  .a-tags{
+    
+    font-weight: 500 !important;
+    color: black;
+  }
+  .a-tags:hover{
+    color: rgb(254, 29, 4);
+    transition: color 0.15s;
+  }
+  .container3{
+    padding: 5%;
+    line-height: 25px;
+  }
+  
+  
+  @media(max-width:991px){
+    .container1{
+      height: 1750px;
+      width: 100%;
+    }
+  }
+  .navbar-nav{
+    display: flex;
+    gap: 2em;
+    
+  
+  }
+  .nav-link:hover{
+    color: red !important;
+
+  }
+  
+  .container1{
+    overflow: hidden;
+  }
+
+.image-container {
+    overflow: hidden; /* Hide any overflow caused by rotation */
+    position:absolute;
+    
+}
+  
+.flying-img {
+    position: absolute; /* Ensure it doesn't cause overflow */
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); /* Center the image */
+    animation: rotate 10s linear infinite;
+    transform-origin: center; /* Rotate around the center */
+    
+}
+#color-sec {
+    overflow: hidden; /* Prevents overflow */
+}
+@keyframes rotate {
+    from {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
